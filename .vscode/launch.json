@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DesvendasApplication<desvendas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.spring.react.desvendas.DesvendasApplication",
+            "projectName": "desvendas",
+            "args": ""
+        }
+    ]
+}
