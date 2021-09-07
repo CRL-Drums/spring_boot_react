@@ -4,7 +4,7 @@ function Footer() {
       <div className="container">
         <p className="text-light">App desenvolvido por <a href="https://www.linkedin.com/in/claudio-lima-101/" target="_blank" rel="noreferrer">Cláudio Lima</a></p>
         <p className="text-light"><small><strong>Contatos:</strong><br />
-          Instagram: <a href="https://instagram.com/claudio.lima.crl" target="_blank" rel="noreferrer">@devsuperior.ig</a></small></p>
+          Instagram: <a href="https://instagram.com/claudio.lima.crl" target="_blank" rel="noreferrer">@claudio.lima.crl</a></small></p>
       </div>
     </footer>
   );
