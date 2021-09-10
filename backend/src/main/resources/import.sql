@@ -1,6 +1,6 @@
-INSERT INTO tb_sellers(name) VALUES ('Cláudio');
-INSERT INTO tb_sellers(name) VALUES ('Brenice');
 INSERT INTO tb_sellers(name) VALUES ('Rafaela');
+INSERT INTO tb_sellers(name) VALUES ('Brenice');
+INSERT INTO tb_sellers(name) VALUES ('Cláudio');
 INSERT INTO tb_sellers(name) VALUES ('Carlos');
 INSERT INTO tb_sellers(name) VALUES ('Silvia');
 

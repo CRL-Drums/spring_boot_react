@@ -1,8 +1,10 @@
 package com.spring.react.desvendas.services;
 
-
+import java.util.List;
 
 import com.spring.react.desvendas.dto.SaleDTO;
+import com.spring.react.desvendas.dto.SaleSumDTO;
+import com.spring.react.desvendas.dto.SalesSuccessDTO;
 import com.spring.react.desvendas.entities.Sale;
 import com.spring.react.desvendas.repositories.SaleRepository;
 import com.spring.react.desvendas.repositories.SellerRepository;
@@ -27,5 +29,15 @@ public class SaleService {
         sellerRepository.findAll();
         Page<Sale> result = repository.findAll(pageable);
         return result.map(x -> new SaleDTO(x));
+    }
+
+    @Transactional(readOnly = true)
+    public List<SaleSumDTO> amountGroupedBySeller() {
+        return repository.amountGroupedBySeller();
+    }
+
+    @Transactional(readOnly = true)
+    public List<SalesSuccessDTO> successGroupedBySeller() {
+        return repository.successGroupedBySeller();
     }
 }

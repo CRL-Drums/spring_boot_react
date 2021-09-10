@@ -30,7 +30,4 @@ public class SaleDTO {
         seller = new SellerDTO(entity.getSeller());
     }
 
-    
-
-
 }
