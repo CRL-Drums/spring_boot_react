@@ -26,6 +26,7 @@ function DonutChart() {
                 setChartData({ labels: dataLabels, series: dataSeries });
                 console.log(chartData);
             });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     //const mockData = {
