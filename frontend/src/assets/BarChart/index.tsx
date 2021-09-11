@@ -46,6 +46,7 @@ function BarChart() {
             });
                 console.log(chartData);
             });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const options = {
